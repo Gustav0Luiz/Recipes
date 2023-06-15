@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4672e12108.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Receitas da Nati</title>
+</head>
+<body> 
+    <header>
+        <a href="#"><div class="title">Receitas da <span>Nati</span></div></a>
+        <div class="hamburguer" onclick="hamb()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav_bar">
+            <ul>
+                <li><a href="#" class="active" onclick="hamb()">Home</a></li>
+                <li><a href="#receitas" onclick="hamb()">Recipes</a></li>
+                <li><a href="#aboutme" onclick="hamb()">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="home">
+            <h1> As melhores receitas</h1>
+            <h2> By Nati Pinheiro</h2>
+        <div class="animation-container">
+            <img src="images/no-bg-imgs/cute-removebg-preview.png" alt="Imagem animada">
+        </div>
+        </section>
+
+        <section class="recipes" id="receitas">
+            <h1> Recipes</h1>
+            <div class="recipes-container">
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Bolo de Cenoura-</h2>
+                        <img src="./images/no-bg-imgs/bolo_cenoura-nobg.png " alt="Bolo de Cenoura">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Café gelado-</h2>
+                        <img src="./images/no-bg-imgs/café_gelado-nobg.png" alt="Café gelado">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Batata Hasselback-</h2>
+                        <img src="./images/no-bg-imgs/batata-nobg.png" alt="Batata Hasselback">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Guacamole-</h2>
+                        <img src="./images/no-bg-imgs/guacamole-nobg.png" alt="Guacamole">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Brigadeiro de Limão-</h2>
+                        <img src="./images/no-bg-imgs/brigadeiro-choc-nobg.png" alt="Brigadeiro de chocolate">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Brigadeiro de Chocolate-</h2>
+                        <img src="./images/no-bg-imgs/brigadeiro-branc-nobg.png" alt="Brigadeiro de limão">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Pudim-</h2>
+                        <img src="./images/no-bg-imgs/pudim-nobg.png" alt="pudim">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+                <div class="recipes-box">
+                    <div class="box-container">
+                        <h2>-Panqueca de Banana-</h2>
+                        <img src="./images/no-bg-imgs/panqueca-nobg.png" alt="panqueca">
+                        <h3><a href="#" onclick="alert('Em Breve')">Acessar Receita</a></h3>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="about-me" id="aboutme">
+            <h1>About me</h1>
+            <div class="aboutme-container">
+                <div class="aboutme-img">
+                    <img src="./images/nati-nobg.png" alt="imagem de perfil">
+                </div>
+                <div class="aboutme-text">
+                    <h1 class="aboutme-name">Natália Pinheiro</h1>
+                    <p>Sou uma pessoa apaixonada pela culinária e decidi compartilhar algumas das minhas receitas favoritas.</p>
+                    <div class="contacts">
+                        <div class="icon ig">
+                            <a target="_blank" href="https://www.instagram.com/nati_pinheiro13/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="icon li">
+                           <a target="_blank" href="https://www.linkedin.com/in/natalia-d-dalarponio/"> <i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="icon gh">
+                            <a target="_blank" href="https://github.com/Gustav0Luiz" ><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="contact">
+        <span>Copyright © | Natália Pinheiro</span>
+    </footer>
+    
+</body>
+</html>
