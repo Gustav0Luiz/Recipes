@@ -1,6 +1,6 @@
 
 <div align="center">
-Um site com algumas receitas da minha namorada.
+Um site com algumas <a href="https://gustav0luiz.github.io/Recipes/">Receitas</a> da minha namorada.
   <p>HTML CSS e JS<p/>
  </div>
  <br/>
